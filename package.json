@@ -1,0 +1,26 @@
+{
+  "name": "donatorito",
+  "version": "1.0.0",
+  "description": "Landing page for donline donation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarioVrd/donatorito.git"
+  },
+  "author": "Mario Vrdoljak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarioVrd/donatorito/issues"
+  },
+  "homepage": "https://github.com/MarioVrd/donatorito#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.3",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
+  }
+}
