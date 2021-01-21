@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+	@apply inline-block cursor-pointer px-6 py-2 rounded;
+}
+
+.btn--primary {
+	@apply bg-red-400 text-white;
+}
+
+.btn--large {
+	@apply px-7 py-3;
+}

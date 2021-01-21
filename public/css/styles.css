@@ -31167,6 +31167,30 @@ video {
           animation: bounce 1s infinite;
 }
 
+.btn {
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.btn--primary {
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 113, 113, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.btn--large {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
