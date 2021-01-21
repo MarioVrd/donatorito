@@ -7,7 +7,7 @@
 }
 
 .btn--primary {
-	@apply bg-red-400 text-white;
+	@apply bg-red-400 text-white hover:bg-red-600 transition-colors;
 }
 
 .btn--large {
@@ -16,4 +16,12 @@
 
 .section-title {
 	@apply text-blue-800 text-4xl font-semibold;
+}
+
+.faq-question {
+	@apply relative z-10 mb-6 px-6 py-4 bg-white shadow-md rounded font-semibold text-gray-500;
+}
+
+.faq-answer {
+	@apply relative z-0 bg-gray-100 p-6 -top-6 rounded-b-lg text-gray-500 border border-gray-200 border-t-0;
 }
